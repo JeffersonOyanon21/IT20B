@@ -41,7 +41,7 @@ function login(username,password){
    }
  
 
-    }else  {
+    }else { 
     console.log("Invalid User");
     
   //Login("jeff",1234) 
@@ -65,5 +65,6 @@ function login(username,password){
   }
 
 }
+    }
  
 ticketPrice(70);
