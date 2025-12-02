@@ -49,11 +49,11 @@ let queue1 = new Queue();
 
 //queue1.traverse();
 queue1.enqueue(4);
-console.log("the current queue size is: + queue.size()");
+console.log("the current queue size is: + queue1.size()");
 queue1.enqueue(3);
-console.log("the current queue size is: + queue.size()");
+console.log("the current queue size is: + queue1.size()");
 queue1.enqueue(2);
-console.log("the current queue size is: + queue.size()");
+console.log("the current queue size is: + queue1.size()");
 console.log(queue1.traverse());
 console.log("The front value "+queue1.dequeue()+ " is dequeued");
 console.log(queue1.traverse());
