@@ -74,9 +74,8 @@ class LinkedList{
 
 //
 let list1 = new LinkedList();
-list1.insert_at_beginning(4);
+list1.insert_at_end(4);
 list1.insert_at_beginning(3);
-list1.insert_at_beginning(5);
-list1.insert_after(5,2);
 console.log(list1.traverse());
-console.log(list1.search(4));
+list1.insert_after(4,17);
+console.log(list1.traverse());
